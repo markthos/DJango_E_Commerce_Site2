@@ -191,3 +191,6 @@ HAYSTACK_CONNECTIONS = {
         'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
     },
 }
+
+import django_heroku
+django_heroku.settings(locals())
